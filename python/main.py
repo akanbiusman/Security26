@@ -1,24 +1,41 @@
-help_inp = input("Press 'help' to get a list of car operations: ")
-print("Below are some commands")
-print("-"*len("Below are some commands"))
-print("start - to start the car")
-print("stop - to stop the car")
-print("quit - to exit")
+try:
+    age = int(input('Age: '))
+    risk = 10/age
+    print(age)
+except ZeroDivisionError:
+    print("Age cannot be 0")
+except ValueError:
+    print("Invalid value!")
 
-while help_inp.lower() == 'help':
-    cmd_now = input(">").lower().strip()
+
+
+
+
+# CAR GAME
+
+# help_inp = input("Press 'help' to get a list of car operations: ")
+# print("Below are some commands")
+# print("-"*len("Below are some commands"))
+# print("start - to start the car")
+# print("stop - to stop the car")
+# print("quit - to exit")
+
+# while help_inp.lower() == 'help':
+#     cmd_now = input(">").lower().strip()
     
-    if cmd_now == "start":
-        print("Car started...Ready to go!")
-    elif cmd_now == "stop":
-        print("Car stopped")
-    elif cmd_now == "quit":
-        break
-    else:
-        print("I don't understand that...")
+#     if cmd_now == "start":
+#         print("Car started...Ready to go!")
+#     elif cmd_now == "stop":
+#         print("Car stopped")
+#     elif cmd_now == "quit":
+#         break
+#     else:
+#         print("I don't understand that...")
 
 
 
+
+# GUESS GAME
 
 # secret_number = 9
 # guess_count = 0
@@ -36,6 +53,9 @@ while help_inp.lower() == 'help':
 #     print("Sorry, You failed!")
 
 
+
+
+# WEIGHT CONVERTER
 
 # print("Weight Converter")
 # print("-"*len("Weight Converter"))
