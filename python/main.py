@@ -11,8 +11,8 @@
 #         corrected_price_cell = sheet.cell(row, 4)
 #         corrected_price_cell.value = corrected_price
 
-#     values = Reference(sheet, 
-#             min_row=2, 
+#     values = Reference(sheet,
+#             min_row=2,
 #             max_row=sheet.max_row,
 #             min_col=4,
 #             max_col=4)
@@ -24,10 +24,7 @@
 #     wb.save(file_name)
 
 
-
-
-
-# CAR GAME
+# # CAR GAME
 
 # help_inp = input("Press 'help' to get a list of car operations: ")
 # print("Below are some commands")
@@ -38,7 +35,7 @@
 
 # while help_inp.lower() == 'help':
 #     cmd_now = input(">").lower().strip()
-    
+
 #     if cmd_now == "start":
 #         print("Car started...Ready to go!")
 #     elif cmd_now == "stop":
@@ -49,9 +46,7 @@
 #         print("I don't understand that...")
 
 
-
-
-# GUESS GAME
+# # GUESS GAME
 
 # secret_number = 9
 # guess_count = 0
@@ -60,7 +55,7 @@
 # while guess_count < guess_limit:
 #     guess = int(input("Guess: "))
 #     guess_count += 1
-    
+
 #     if guess == secret_number:
 #         print("You won!")
 #         break
@@ -69,9 +64,7 @@
 #     print("Sorry, You failed!")
 
 
-
-
-# WEIGHT CONVERTER
+# # WEIGHT CONVERTER
 
 # print("Weight Converter")
 # print("-"*len("Weight Converter"))
